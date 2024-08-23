@@ -7,7 +7,7 @@ pipeline{
                 echo "========executing build========"
                 sh "npm update"
             }
-        }     
+        }    
         stage("Deliver")
         {
             steps{
