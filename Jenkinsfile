@@ -11,8 +11,7 @@ pipeline{
         {
             steps{
                 echo "========executing deliver========"
-                sh 'chmod -R +rwx ./jenkins/scripts/deliver.sh'
-                sh './jenkins/scripts/deliver.sh'
+                ./jenkins/scripts/deliver.bat'
 
                echo "========end deliver========"
    
