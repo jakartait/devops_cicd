@@ -6,8 +6,7 @@ pipeline{
                 echo "========executing build========"
                 sh "npm install"
             }
-             
-        },
+        }     
         stage("Deliver")
         {
             steps{
