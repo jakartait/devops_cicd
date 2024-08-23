@@ -5,7 +5,7 @@ pipeline{
         stage("Build"){
             steps{
                 echo "========executing build========"
-                sh "npm install"
+                sh "npm update"
             }
         }     
         stage("Deliver")
@@ -20,7 +20,6 @@ pipeline{
             }
         }
     }
-     
     post{
         always{
             echo "========always========"
