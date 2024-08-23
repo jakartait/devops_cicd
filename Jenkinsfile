@@ -11,7 +11,7 @@ pipeline{
         {
             steps{
                 echo "========executing deliver========"
-                ./jenkins/scripts/deliver.bat'
+                bat ./jenkins/scripts/deliver.bat'
 
                echo "========end deliver========"
    
