@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools {nodejs "NodeJS"}
     stages{
-        stage("Build"){
+        stage("Install"){
             steps{
                 echo "========executing build========"
                 sh "npm update"
