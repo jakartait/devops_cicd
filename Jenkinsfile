@@ -13,6 +13,7 @@ pipeline{
                 echo "========executing deliver========"
                 sh 'chmod -R +rwx ./jenkins/scripts/deliver.sh'
                 sh './jenkins/scripts/deliver.sh'
+                sh './jenkins/scripts/kill.sh' 
 
                echo "========end deliver========"
    
